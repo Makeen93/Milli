@@ -656,6 +656,7 @@ input[type='checkbox'] {
 	transition: all 0.2s;
     
     
+    
 }
 
 .navbar-custom .navbar-brand {
@@ -687,6 +688,7 @@ input[type='checkbox'] {
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.2s ease;
+    text-align: right;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
@@ -699,6 +701,7 @@ input[type='checkbox'] {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
 	min-width: auto;
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
+    
 }
 
 @keyframes fadeDropdown {
@@ -721,6 +724,7 @@ input[type='checkbox'] {
 	border-radius: 0.25rem;
 /*	background-color: #113448;*/
     background-color: black;
+    text-align: center;
 }
 
 .navbar-custom .dropdown-item {
@@ -748,6 +752,7 @@ input[type='checkbox'] {
 	border: none;
 	background-color: #b5bcc4;
 	opacity: 0.2;
+    
 }
 /* end of dropdown menu */
 
@@ -756,9 +761,11 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-toggler {
+    
 	border: none;
 	color: #fff;
 	font-size: 2rem;
+    
 }
 
 .navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times{
