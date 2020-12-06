@@ -58,6 +58,12 @@ body, p {
 }
 .p-time
 {
+	color: rgb(250, 0, 0);
+	margin-top: 5rem;
+	text-align: center;
+}
+.p-time
+{
 	color: white;
 	margin-top: 5rem;
 }
