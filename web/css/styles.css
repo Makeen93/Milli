@@ -56,6 +56,12 @@ body, p {
 	color: #787976; 
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 }
+.p-time
+{
+	color: rgb(250, 0, 0);
+	margin-top: 5rem;
+	text-align: center;
+}
 
 .p-large {
 	font: 400 1.125rem/1.625rem "Open Sans", sans-serif;
