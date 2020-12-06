@@ -125,7 +125,7 @@
                         <div class="text-container">
                             <h1>مديرية التربية والتعليم في أخترين <span id="js-rotating">نسعى, لتميز, طلابنا</span></h1>
                             <p class="p-heading p-large">مؤسسة رسمية تربوية تعليمية تعنى بالطالب وتتبع لمجلس أخترين المحلي</p>
-                            <p class="p-time" id="demo"></p>
+                           
                         </div>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -450,29 +450,6 @@
     <script src="web/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="web/js/scripts.js"></script> <!-- Custom scripts -->
     <script src="web/js/timeline.min.js"></script>
-    <script>
-		timeline(document.querySelectorAll('.timeline'), {
-			forceVerticalMode: 700,
-			mode: 'horizontal',
-			verticalStartPosition: 'left',
-			visibleItems: 4
-		});
-        function startTime() {
-            var d = new Date();
-            var days = ["الأحد","الأثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت"];
-            var month = ["كانون الثاني","شباط","آذار","نيسان","أيار","حزيران","تموز","آب","أيلول","تشرين الأول","تشرين الثاني","كانون الأول"];
-            var h = d.getHours();
-            var m = d.getMinutes();
-            var s = d.getSeconds();
-            m = checkTime(m);
-            s = checkTime(s);
-            document.getElementById("demo").innerHTML =days[d.getDay()]+" "+month[d.getMonth()]+" "+d.getFullYear()+"<br>"+h + ":" + m + ":" + s;
-            var t = setTimeout(startTime, 500);
-        }
-        function checkTime(i) {
-        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-        return i;
-        }
-	</script>
+    
 </body>
 </html>
