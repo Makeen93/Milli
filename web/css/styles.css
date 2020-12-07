@@ -736,19 +736,24 @@ input[type='checkbox'] {
 .navbar-custom .dropdown-item {
 	color: #fff;
 	text-decoration: none;
+	text-align: center;
 }
 
 .navbar-custom .dropdown-item:hover {
 /*	background-color: #113448;*/
     background-color: black;
+	text-align: center;
 }
 
 .navbar-custom .dropdown-item .item-text {
 	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+	color: white;
+	text-align: center;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
 	color: #14bf98;
+	text-align: center;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
