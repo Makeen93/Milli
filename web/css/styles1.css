@@ -749,6 +749,7 @@ input[type='checkbox'] {
 .navbar-custom .dropdown-item .item-text {
 	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
 	text-align: center;
+	color: white;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
