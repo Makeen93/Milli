@@ -1480,7 +1480,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../ima
 }
 
 .counter #counter .cell {
-	display: inline-block;
+	display: inline;
 	width: 9.5rem;
 	margin-bottom: 0.75rem;
 }
@@ -1499,7 +1499,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../ima
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 	vertical-align: middle;
-    color: black;
+    	color: black;
 }
 /*************************/
 /*     18. Copyright     */
