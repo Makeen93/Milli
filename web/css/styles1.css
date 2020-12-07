@@ -63,7 +63,6 @@ body, p {
 	text-align: center;
 }
 
-
 .p-large {
 	font: 400 1.125rem/1.625rem "Open Sans", sans-serif;
 }
@@ -1501,11 +1500,11 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../ima
 
 .counter #counter .counter-info {
 	display: inline-block;
-	margin-right : 0.5rem;
+	margin-right: 0.5rem;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 	vertical-align: middle;
-    	color: black;
+    color: black;
 }
 /*************************/
 /*     18. Copyright     */
